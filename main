@@ -1,0 +1,6 @@
+int main() {
+    CTriangle triangle(3, 4, 5);
+    cout << "三角形的顏色為：" << triangle.color << endl;
+    cout << "三角形的面積為：" << triangle.getArea() << endl;
+    return 0;
+}
